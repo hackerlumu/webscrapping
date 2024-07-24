@@ -8,27 +8,27 @@ Getting Started
 Prerequisites
 Make sure you have Python 3.x installed on your machine. You also need the following Python libraries:
 
-requests
+# requests
 beautifulsoup4
 You can install these libraries using pip:
 
-bash
+# bash
 Copy code
 pip install requests beautifulsoup4
 Running the Scraper
 Clone the repository:
 
-bash
+# bash
 Copy code
 git clone https://github.com/your-username/simple-web-scraper.git
 Navigate to the project directory:
 
-bash
+# bash
 Copy code
 cd simple-web-scraper
 Run the scraper:
 
-bash
+# bash
 Copy code
 python web_scraper.py
 The tool will output the titles and URLs of the blog posts directly in the console.
@@ -36,7 +36,9 @@ The tool will output the titles and URLs of the blog posts directly in the conso
 Customization
 You can modify the blog_url variable in web_scraper.py to scrape a different website. Make sure to update the HTML parsing logic to match the structure of the new site.
 
-Important Notes
+
+
+# Important Notes
 Always respect the website's robots.txt file and terms of service when scraping.
 This tool is for educational purposes and should be used responsibly.
 License
